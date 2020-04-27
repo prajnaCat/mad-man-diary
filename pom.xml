@@ -6,7 +6,14 @@
 
     <groupId>com.mmd</groupId>
     <artifactId>mad-man-diary</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mad-man-diary-gateway</module>
+        <module>mad-man-diary-book</module>
+        <module>mad-man-diary-user</module>
+        <module>mad-man-diary-writer</module>
+    </modules>
 
     <!--统一管理jar包和版本-->
     <properties>

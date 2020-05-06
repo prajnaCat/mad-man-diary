@@ -1,0 +1,27 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: mmd-book
+  profiles:
+    active: dev
+  #把本服务注册进下面的nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        #指定yaml格式的设置
+        file-extension: yaml
+        #指定配置文件所在的命名空间  的id
+        namespace: dev
+        #指定配置文件所在的分组
+        group: DEV_GROUP
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

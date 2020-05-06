@@ -1,4 +1,4 @@
-package com.mmd.gateway;
+package com.mmd.writer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,13 +6,14 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author xch
- * @description 网关启动类
- * @date 2020-04-26
+ * @description
+ * @date 2020-05-06
  */
-@SpringBootApplication
+
 @EnableDiscoveryClient
-public class MmdGateWayMain {
+@SpringBootApplication
+public class MmdWriterMain {
     public static void main(String[] args) {
-        SpringApplication.run(MmdGateWayMain.class, args);
+        SpringApplication.run(MmdWriterMain.class, args);
     }
 }

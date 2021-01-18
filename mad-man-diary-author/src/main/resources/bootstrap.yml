@@ -12,6 +12,8 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+        namespace: ef315231-0c44-4655-b6de-f7bfae9240bf
+
       config:
         server-addr: localhost:8848
         #指定yaml格式的设置

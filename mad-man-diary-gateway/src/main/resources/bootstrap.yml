@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 88
 
 spring:
   application:
@@ -11,12 +11,12 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-      config:
-        server-addr: localhost:8848
-        #指定yaml格式的设置
-        file-extension: yaml
-        #指定配置文件所在的命名空间  的id
-        namespace: dev
-        #指定配置文件所在的分组
-        group: DEV_GROUP
+#      config:
+#        server-addr: localhost:8848
+#        #指定yaml格式的设置
+#        file-extension: yaml
+#        #指定配置文件所在的命名空间  的id
+#        namespace: dev
+#        #指定配置文件所在的分组
+#        group: DEV_GROUP
 

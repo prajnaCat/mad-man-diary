@@ -1,0 +1,22 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: mmd-author
+  profiles:
+    active: dev
+
+  #把本服务注册进下面的nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        #指定yaml格式的设置
+        file-extension: yaml
+        #指定配置文件所在的命名空间  的id
+        namespace: ef315231-0c44-4655-b6de-f7bfae9240bf
+        #指定配置文件所在的分组
+        group: DEFAULT_GROUP

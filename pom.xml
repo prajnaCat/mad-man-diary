@@ -35,7 +35,7 @@
         <spring-cloud-alibaba.version>2.2.3.RELEASE</spring-cloud-alibaba.version>
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <spring-data-jpa.version>2.3.2.RELEASE</spring-data-jpa.version>
-        <spring-cloud-openfeign>2.2.5.RELEASE</spring-cloud-openfeign>
+        <spring-cloud-openfeign>3.0.6</spring-cloud-openfeign>
 
 
         <!-- 依赖版本 -->
